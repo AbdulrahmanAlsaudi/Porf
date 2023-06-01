@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.header nav {
+    background-color: #232C33;
+}
+.header nav a{
+    color: #fff;
+}
+.nav__menu{
+    background-color: #232C33; 
+}
+
+.nav__item .nav__link {
+    color: #fff;
+}
+.nav__close{
+    color: #fff;
+}
+
+.nav__buttons .ri-moon-line
+{
+    color: #fff;
+}
+.nav__buttons .nav__toggle{
+   
+    color: #fff;
+}
+.home{
+    background-color: rgba(59, 62, 69, 0.9);
+    opacity: 1;
+}
+
+.home__data h1{
+   color: #fff;
+    font-size: 30px;
+}
+.home__blob{
+    position:relative;
+    width:180px;
+    height:270px;
+    background-color: #fff;
+    border-radius:6.25rem;
+    border: 2px solid #ccc;
+   box-shadow: 7px 7px 20px #fff;
+    justify-self:center;
+    place-items:center;
+    transition:background .4s
+  }
+  .home__perfil{
+    width:170px;
+    height:260px;
+    background:var(--gradient-color);
+    border-radius:5.5rem;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end
+  }
+  .home__perfil img{width:100px}
+.home__info h3{
+
+    color: #ffffff;
+   font-weight: bold;
+    font-size: 20px;
+    opacity: 0.5;
+    text-align: right;
+
+}
+.home__info p{
+    color: #ffffff;
+text-align: right;
+}
+
+
+
+.skills__title{
+    background-color: goldenrod;
+    border-radius: 7px;
+}
+
+
+.services__card{
+    border: 1px solid #000;
+   
+    background-color: gold;
+}
+.services__card p{
+    font-size: 17px;
+}
+
+.section__title{
+    background-color:goldenrod;
+
+    font-size:2.25rem;
+    font-weight:500;
+    margin-bottom:.25rem}.section__subtitle{display:block;
+      font-size:.613rem;
+      color:hsl(207, 4%, 56%);
+      margin-bottom:1rem;
+    
+}
+.contact__form button{
+    background-color: #232C33;
+    width: 80px;
+    height: 25px;
+    color: #fff;
+    border-radius: 10px;
+   
+}
+
+.contact__title{
+    background-color: goldenrod;  
+    border-radius: 7px;
+}
+
+
+.footer_container .footer__list li a {
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+
+}
