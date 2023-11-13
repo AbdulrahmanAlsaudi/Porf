@@ -16,7 +16,16 @@ function sendMail() {
         console.log(res);
         alert("تم إرسال رسالتك بنجاح")
 
-    })
+    }).then(
+      message =>{
+        if(message=='OK'){
+          swal("Secussful", "You clicked the button!", "success");
+        }
+        else{
+          swal("error", "You clicked the button!", "success");
+        }
+      }
+    );
     .catch(err=>console.log(err));
 
 }
