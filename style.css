@@ -125,7 +125,14 @@ text-align: right;
 }
 .footer_container .footer__list li a {
     border: 2px solid #000;
+    border-radius: 3px;
     background-color: #000;
     color: #fff;
 
+}
+.contact__content button{
+background-color: goldenrod;
+color:#000000;
+    border: 1px solid #232C33;
+    font-weight:bold;
 }
